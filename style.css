@@ -88,23 +88,26 @@
     background: #ccc;
     width: 85%;   
 }
-.subscribed-list h3{
+.subscribed-list h3 {
     font-size: 13px;
     margin: 20px 0;
     color: #5a5a5a;
 }
-subscribed-list a{
+
+.subscribed-list a {
     display: flex;
     align-items: center;
     margin-bottom: 20px;
     width: fit-content;
     flex-wrap: wrap;
 }
-subscribed-list a img{
+
+.subscribed-list a img {
     width: 25px;
     border-radius: 50%;
     margin-right: 20px;
 }
+
 .small-sidebar{
     width: 5%;
 }
@@ -132,21 +135,23 @@ subscribed-list a img{
     width: 100%;
     border-radius: 8px;  
 }
-.list-container{
+.list-container {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(250px,1fr));
-    grid: column gap 16px; ;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-gap: 16px; /* Use grid-gap instead of grid: column gap 16px; */
 }
-.vid-list .thumbnail{
+
+.vid-list .thumbnail {
     width: 100%;
     border-radius: 5px;
-    
 }
-.vid-list .flex-dev{
+
+.vid-list .flex-div { /* Corrected the class name from .flex-dev to .flex-div */
     align-items: flex-start;
     margin-top: 7px;
 }
-.vid-list .flex-dev img{
+
+.vid-list .flex-div img { /* Corrected the class name from .flex-dev to .flex-div */
     width: 35px;
     margin-right: 10px;
     border-radius: 50%;
